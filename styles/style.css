@@ -1,0 +1,123 @@
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.windows_p{
+    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.window {
+    width: 80%;
+    height: 85%;
+    margin: auto;
+    border: 2px double rgb(119, 119, 119);
+    border-radius: 0.8em;
+}
+
+.word {
+    height: 80px;
+    margin: auto;
+    border: 2px double rgb(119, 119, 119);
+    border-right: none;
+    border-left: none;
+}
+
+.letter{
+    height: 50px;
+    width: 50px;
+    border: 2px double rgb(119, 119, 119);
+    border-radius: 1em;
+    margin: 10px;
+    position: relative;
+    float: left;
+    
+}
+
+.character{
+    color: rgb(119, 119, 119);;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.gamewindow{
+    width: 100%;
+    height: 16em;
+}
+.gallows {
+    width: 54%;
+    height: 16em;
+    float: left;    
+    border: 2px double rgb(119, 119, 119);
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+
+}
+
+
+.answers { 
+    width: 45%;
+    height: 16em;
+    float: right;
+}
+
+.letters { 
+    height: 13em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.attempts{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.li{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.guess {
+    height: 2em;
+}
+
+#textcharacter{
+    text-transform: uppercase;
+    border: 4px double rgb(119, 119, 119);
+    width: 85%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+#btn{
+    border: 3px double rgb(119, 119, 119);
+    width: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+#imagesLib{
+    width: 1px;
+    height: 1px;;
+    overflow: hidden;
+
+}
